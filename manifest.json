@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+
+    "name": "Dogechain Quick-link",
+    "description": "Highlight a Dogecoin address or transaction ID, right click, and select Dogechain",
+    "version": "1.0",
+    
+    "icons": {
+        "16" : "icon_16.png",
+        "19" : "icon_19.png",
+        "48" : "icon_48.png",
+        "128" : "icon_128.png"
+    },
+
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background":{
+        "scripts": ["contextMenu.js"]
+    }
+}
